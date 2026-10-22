@@ -1,4 +1,6 @@
 <?php
+// Preserve Google_Service_Fusiontables, removed from the PHP 8.3-compatible Google client service set, so existing FusionTables references still resolve; this does not restore the retired remote service. composer.json classmaps these retained classes and composer.lock pins the compatible client dependencies; legacy-google/LICENSE retains their upstream license.
+
 /*
  * Copyright 2016 Google Inc.
  *

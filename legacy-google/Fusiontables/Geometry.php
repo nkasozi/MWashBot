@@ -1,4 +1,6 @@
 <?php
+// Preserve Google_Service_Fusiontables_Geometry, removed from the PHP 8.3-compatible Google client service set, so existing FusionTables references still resolve; this does not restore the retired remote service.
+
 /*
  * Copyright 2016 Google Inc.
  *
