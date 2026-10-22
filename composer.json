@@ -11,8 +11,7 @@
 	"config": {
 		"platform": {
 			"php": "8.3.36"
-		},
-		"allow-plugins": false
+		}
 	},
 	"autoload": {
 		"classmap": [
