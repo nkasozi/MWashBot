@@ -32,4 +32,6 @@ https://api.telegram.org/[bot_token]/setWebhook?url=https://www.example.com
 
 Run the `composer install` command in the root of the cloned project's directory. This command will download and install the dependencies.
 
+## Runtime
 
+Use PHP 8.3.36 or a newer 8.3 security release. Install the locked dependencies with `composer install`. Google FusionTables is retired; the historical generated service classes are retained only for existing source compatibility. Those classes originate from google/apiclient-services 0.11, commit 48c554aee06f2fd5700d7bdfa4fa6b82d184eb52.
