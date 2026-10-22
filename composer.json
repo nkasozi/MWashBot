@@ -5,17 +5,12 @@
 	"license": "MIT",
 	"require": {
 		"php": "~8.3.36",
-		"google/apiclient": "^2.20",
-		"google/apiclient-services": "0.464.0"
+		"google/apiclient": "2.9.2",
+		"google/apiclient-services": "0.130"
 	},
 	"config": {
 		"platform": {
 			"php": "8.3.36"
 		}
-	},
-	"autoload": {
-		"classmap": [
-			"legacy-google/"
-		]
 	}
 }
