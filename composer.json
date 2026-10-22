@@ -1,22 +1,22 @@
 {
-    "name": "code4sierraleone/mwash-bot",
-    "description": "A Telegram Bot Extension For MWash",
-    "type": "project",
-    "license": "MIT",
-    "require": {
-        "php": "~8.3.36",
-        "google/apiclient": "^2.20",
-        "google/apiclient-services": "0.464.0"
-    },
-    "config": {
-        "platform": {
-            "php": "8.3.36"
-        },
-        "allow-plugins": false
-    },
-    "autoload": {
-        "classmap": [
-            "legacy-google/"
-        ]
-    }
+	"name": "code4sierraleone/mwash-bot",
+	"description": "A Telegram Bot Extension For MWash",
+	"type": "project",
+	"license": "MIT",
+	"require": {
+		"php": "~8.3.36",
+		"google/apiclient": "^2.20",
+		"google/apiclient-services": "0.464.0"
+	},
+	"config": {
+		"platform": {
+			"php": "8.3.36"
+		},
+		"allow-plugins": false
+	},
+	"autoload": {
+		"classmap": [
+			"legacy-google/"
+		]
+	}
 }
